@@ -12,6 +12,7 @@ URL:		http://dimitri.mutu.net/ocaml.html
 Source: 	ftp://quatramaran.ens.fr/pub/ara/ocamldsort/%{name}-%{version}.tar.bz2
 BuildRequires:	ocaml
 BuildRequires:	camlp4
+BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
 %description
 The ocamldsort command scans a set of Objective Caml source files (.ml and .mli
