@@ -1,6 +1,6 @@
 %define name		ocamldsort
 %define version		0.14.4
-%define release		%mkrel 3
+%define release		%mkrel 4
 
 Name:		%{name}
 Version:	%{version}
