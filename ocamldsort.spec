@@ -1,6 +1,6 @@
 %define name		ocamldsort
-%define version		0.14.4
-%define release		%mkrel 4
+%define version		0.15.0
+%define release		%mkrel 1
 
 Name:		%{name}
 Version:	%{version}
@@ -9,10 +9,10 @@ Summary:	A dependency sorter for OCaml source files
 License:	GPL
 Group:		Development/Other
 URL:		http://dimitri.mutu.net/ocaml.html
-Source: 	ftp://quatramaran.ens.fr/pub/ara/ocamldsort/%{name}-%{version}.tar.bz2
+Source: 	ftp://quatramaran.ens.fr/pub/ara/ocamldsort/%{name}-%{version}.tar.gz
 BuildRequires:	ocaml
 BuildRequires:	camlp4
-BuildRoot:	    %{_tmppath}/%{name}-%{version}
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 The ocamldsort command scans a set of Objective Caml source files (.ml and .mli
