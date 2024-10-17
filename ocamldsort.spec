@@ -8,7 +8,7 @@ Release:	%{release}
 Summary:	A dependency sorter for OCaml source files
 License:	GPL
 Group:		Development/Other
-URL:		http://dimitri.mutu.net/ocaml.html
+URL:		https://dimitri.mutu.net/ocaml.html
 Source: 	ftp://quatramaran.ens.fr/pub/ara/ocamldsort/%{name}-%{version}.tar.gz
 BuildRequires:	ocaml
 BuildRequires:	camlp4
