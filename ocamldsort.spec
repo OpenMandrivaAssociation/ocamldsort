@@ -10,6 +10,11 @@ License:	GPL
 Group:		Development/Other
 URL:		https://dimitri.mutu.net/ocaml.html
 Source: 	ftp://quatramaran.ens.fr/pub/ara/ocamldsort/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	ocaml
 BuildRequires:	camlp4
 BuildRoot:	%{_tmppath}/%{name}-%{version}
